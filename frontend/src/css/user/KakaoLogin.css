@@ -1,0 +1,7 @@
+button {
+  outline: none;
+  border: 0px;
+}
+button img {
+  max-width: 130px;
+}

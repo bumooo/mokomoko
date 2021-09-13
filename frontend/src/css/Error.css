@@ -1,0 +1,22 @@
+.home-icon {
+  /* mokomoko 이미지를 왼쪽 정렬하기위한 부모 div 설정 */
+  overflow: hidden;
+}
+.home-icon img {
+  /* mokomoko 이미지를 왼쪽 정렬 */
+  float: left;
+  max-width: 200px;
+  max-height: 200px;
+}
+.error-icon {
+  /* 에러 페이지 이미지를 본문 가운데 정렬하기위한 부모 div 설정 */
+  overflow: hidden;
+  line-height: 70vh; /* 페이지 수직 정렬 70vh = 화면 높이의 70%*/
+}
+.error-icon img {
+  /* 에러 페이지 이미지를 가운데 정렬 */
+  float: center; /* 수평 정렬 */
+  vertical-align: middle; /* 수직 정렬 */
+  max-width: 100%; /* 반응형으로 이미지 크기 조정 */
+  height: auto;
+}

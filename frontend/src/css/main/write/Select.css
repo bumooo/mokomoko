@@ -1,0 +1,54 @@
+/* 탐색 페이지 최상위 태그 / 가운데정렬 */
+.select-wrapper {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/* width가 768보다 작으면 가로길이에 맞게 width 조정 */
+@media only screen and (max-width: 768px) {
+  .select-row {
+    width: 100%;
+  }
+  .select-col {
+  }
+}
+
+/* width가 768보다 크면 가로길이를 768px로 고정 */
+@media only screen and (min-width: 768px) {
+  .select-row {
+    width: 768px;
+  }
+  .select-col {
+  }
+}
+.select-link > button {
+  border: 1px solid black;
+  margin-top: 10px;
+  background-color: #ff5a6073;
+  width: 270px;
+  height: 30px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+/* 탐색 페이지 헤더 */
+.select-header {
+  text-align: left;
+  height: 40px;
+  border-bottom: 2px solid grey;
+  margin-top: 5px;
+}
+.select-btn {
+  margin-top: 100px;
+}
+.select-btn :hover {
+  background-color: #ef5c89;
+}
+.select-content {
+  margin-top: 100px;
+}

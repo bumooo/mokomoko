@@ -1,0 +1,38 @@
+/* 네비바 하단 고정 밑 세로 길이 설정 */
+.wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+  z-index: 1;
+}
+
+/* 네비게이션 바 설정 */
+.Navs {
+  overflow: hidden;
+  border-top: 1px solid #dbdbdb;
+  background: #ffffff;
+  padding: 0;
+}
+
+/* Link 컴포넌트 정렬 설정 */
+.nav-link {
+  /* 수평 정렬*/
+  float: left;
+  width: 20%;
+  height: 45px;
+
+  /*중앙정렬 */
+  text-align: center;
+}
+
+/* 하단 네비바의 메뉴를 눌렀을 때 색상 변경*/
+.nav-item {
+  color: grey;
+}
+
+/* 하단 네비바의 메뉴를 눌렀을 때 색상 변경*/
+.active {
+  color: #ef5c89;
+}

@@ -1,0 +1,47 @@
+server:
+    port: 8080
+
+spring:
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/SSAFY_PJT2?serverTimezone=UTC&useUniCode=yes&characterEncoding=UTF-8
+        username: ssafy
+        password: ssafy
+
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                ddl-auto: update
+            properties:
+                hibernate:
+                    show_sql: true
+                    format_sql: true
+    mail:
+        host: smtp.gmail.com
+        port: 587
+        username: yarone4916
+        password: 'yee8671!'
+        properties:
+            mail:
+                smtp:
+                    starttls:
+                        enable: true
+                        required: true
+                    auth: true
+                    connectiontimeout: 5000
+                    timeout: 5000
+                    writetimeout: 5000
+    servlet:
+        multipart:
+            maxFileSize: 50MB
+            maxRequestSize: 50MB
+jwt:
+    #HS512 알고리즘을 사용할 것이기 때문에 512bit, 즉 64byte 이상의 secret key를 사용해야 한다.
+    #echo 'silvernine-tech-spring-boot-jwt-tutorial-secret-silvernine-tech-spring-boot-jwt-tutorial-secret'|base64
+    secret: c2lsdmVybmluZS10ZWNoLXNwcmluZy1ib290LWp3dC10dXRvcmlhbC1zZWNyZXQtc2lsdmVybmluZS10ZWNoLXNwcmluZy1ib290LWp3dC10dXRvcmlhbC1zZWNyZXQK
+
+logging:
+    level:
+        me.silvernine: DEBUG

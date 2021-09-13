@@ -1,0 +1,21 @@
+.btn-resend-email{
+    background-color: #EC6664;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.confirm{
+    /*로고와 텍스트 사이 간격 설정*/
+    margin-block-start: 150px;
+}
+
+.reSend{
+    /*텍스트와 텍스트 사이 간격 설정*/
+    margin-top: 50px;
+}
+

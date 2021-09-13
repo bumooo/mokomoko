@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+/* @font-face {
+  font-family: "Wemakeprice-SemiBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Wemakeprice-SemiBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+} */
+body {
+  background-color: #fafafa;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,90 @@
+/* 탐색 페이지 최상위 태그 / 가운데정렬 */
+.userInfo-wrapper {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* width가 768보다 작으면 가로길이에 맞게 width 조정 */
+  @media only screen and (max-width: 768px) {
+    .userInfo-row {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .userInfo-col {
+    }
+  }
+  
+  /* width가 768보다 크면 가로길이를 768px로 고정 */
+  @media only screen and (min-width: 768px) {
+    .userInfo-row {
+      width: 768px;
+      margin-bottom: 50px;
+    }
+    .userInfo-col {
+    }
+  }
+
+
+.userInfo{
+    align-content: center;
+    height: 100%;
+}
+
+.userImg {
+    width: 150px;
+    height: 150px; 
+    border-radius: 70%; /*div 가 원이 됨*/
+    overflow: hidden; /*넘치는 부분 지워줌*/
+    margin : 0 auto; /*userImg div 중앙 위치*/
+}
+.userImg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 1px;
+}
+
+@font-face {
+  font-family: 'IM_Hyemin-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.userInfo-nickname span{
+  font-family: IM_Hyemin-Bold;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.userInfo-introduce span{
+  font-family: Pretendard-Regular;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.userFriend{
+    width: 100%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.userFriend.follow{
+    width: 50%;
+}
+.userFriend.follower{
+    width: 50%;
+}
+
+p{
+    color: #848383;
+    font-size: large;
+}

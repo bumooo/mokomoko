@@ -1,0 +1,51 @@
+.nickname {
+  margin-top: 50px;
+}
+.nickname-submit {
+  margin-top: 40px;
+  width: 80%;
+}
+.nickname-submit #nickname-set-btn {
+  width: 270px;
+  height: 30px;
+  margin: 90px auto;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+.nickname-validation-onColor {
+  color: rgb(105, 130, 211);
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  font-size: 10px;
+}
+.nickname-validation-offColor {
+  color: red;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  font-size: 10px;
+}
+.set-btn-active {
+  background-color: #ff5a5f;
+}
+.set-btn-unactive {
+  background-color: #ff5a6073;
+}
+.input-nickname {
+  width: 270px;
+  height: 40px;
+  margin: 3px auto;
+  padding: 0 10px;
+  display: block;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.nickname-desc-msg {
+  font-size: 15px;
+}

@@ -1,0 +1,41 @@
+.developerInfo-header{
+    display: inline-block;
+    width: 100%;
+}
+
+.developerInfo-header.back{
+    width: 10%;
+}
+
+.developerInfo-header.title{
+    width: 90%;
+    font-size: 25px;
+}
+
+.developerInfo{
+    display: inline-block;
+    width: 80%;
+    height: 25%;
+    margin-top: 20px;
+}
+
+.developerInfo.img{
+    width: 50%;
+    border-radius: 70%; /*div 가 원이 됨*/
+    overflow: hidden; /*넘치는 부분 지워줌*/
+    margin : 0 auto; /*userImg div 중앙 위치*/
+    background-color: black;
+}
+
+.developerInfo.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 1px;
+}
+
+.developerInfo.text{
+    text-align: center;
+    width: 50%;
+    align-items: center;
+}

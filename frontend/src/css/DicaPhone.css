@@ -1,0 +1,10 @@
+ul{
+    width: 100vw;
+    white-space: no-warp;
+}
+
+ul > li{
+    width: 80vw;
+    margin: 0 10vw 0 10vw;
+    display: inline-block;
+}

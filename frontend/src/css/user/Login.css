@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.wrap {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap .user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.wrap .user-container .inner {
+  width: 350px;
+  height: 440px;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #dbdbdb;
+}
+.join-sector {
+  margin-top: 350px;
+  width: 30%;
+  height: 10%;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login-btn-onColor {
+  background-color: #ff5a5f;
+}
+.login-btn-onColor:enabled:hover {
+  cursor: pointer;
+}
+.login-btn-offColor {
+  background-color: #a8a7a780;
+}
+.login-btn-offColor:disabled:hover {
+  cursor: default;
+}
+/* img.logo {
+  width: 200px;
+  align-self: center;
+  margin: 35px 0;
+} */
+
+.logo-name {
+  font-family: Wemakeprice-SemiBold;
+  padding-top: 5%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  align-content: center;
+  font-size: 1.5em;
+}
+.login-id {
+  margin-top: 20px;
+  width: 80%;
+}
+.login-pw {
+  margin-top: 10px;
+  width: 80%;
+}
+.login-id input {
+  width: 270px;
+  height: 40px;
+  margin: 3px auto;
+  padding: 0 10px;
+  display: block;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.login-pw input {
+  width: 270px;
+  height: 40px;
+  margin: 3px auto;
+  padding: 0 10px;
+  display: block;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+input:focus {
+  border: 1px solid #8a8a8a;
+  outline: none;
+}
+input:placeholder {
+  font-size: 12px;
+  color: #8e8e8e;
+}
+.user-submit {
+  margin-top: 10px;
+  width: 80%;
+}
+.user-submit #login-btn {
+  width: 270px;
+  height: 30px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#btn_login:focus {
+  outline: none;
+}
+
+.login-footer {
+  margin-top: 15%;
+  /* padding: 20px; */
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.forgot-pw {
+  float: right;
+}
+.forgot-pw a {
+  color: inherit;
+  text-decoration: none;
+}
+.forgot-pw span {
+  font-size: small;
+  color: #003768;
+}
+
+.to-join a {
+  color: inherit;
+  text-decoration: none;
+}
+.to-join span {
+  font-size: 12px;
+}
+.to-join .to-join-name {
+  color: #ff5a6093;
+  font-style: inherit;
+  font-weight: bold;
+  font-size: 12px;
+}
+.login-or {
+  margin-top: 8px;
+}
+
+.login-or hr {
+  background-color: rgba(var(--b38, 219, 219, 219), 1);
+  height: 1px;
+}
+.leftHr {
+  margin-top: 10px;
+  float: left;
+  width: 35%;
+  box-sizing: border-box;
+}
+
+.or {
+  float: left;
+  width: 17%;
+  font-size: 13px;
+  box-sizing: border-box;
+
+  /* color: rgba(var(--f52, 142, 142, 142), 1); */
+  color: #484848;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0px 15px;
+}
+
+.rightHr {
+  margin-top: 10px;
+  float: right;
+  width: 35%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Wemakeprice-SemiBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Wemakeprice-SemiBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.naver_Login {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #a3a0a0;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.naverLogo {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+.naverLogo img {
+  padding-left: 5px;
+  float: left;
+  height: 18px;
+}
+
+.inputContent span {
+  text-align: center;
+  color: #3f3d3d;
+  padding-top: 10%;
+}
+
+.to-join {
+  margin-top: 40px;
+}

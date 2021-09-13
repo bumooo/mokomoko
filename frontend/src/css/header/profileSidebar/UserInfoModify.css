@@ -1,0 +1,130 @@
+.userModify-wrapper {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/* width가 768보다 작으면 가로길이에 맞게 width 조정 */
+@media only screen and (max-width: 768px) {
+  .food-row {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .food-col {
+  }
+}
+
+/* width가 768보다 크면 가로길이를 768px로 고정 */
+@media only screen and (min-width: 768px) {
+  .food-row {
+    width: 768px;
+    margin-bottom: 50px;
+  }
+  .food-col {
+  }
+}
+
+.userModify-header {
+  /* display: inline-block; */
+  width: max-content;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.userModify-header.back {
+  float: left;
+}
+
+.userModify-header.title {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.userModify.userImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 70%; /*div 가 원이 됨*/
+  overflow: hidden; /*넘치는 부분 지워줌*/
+  margin: 0 auto; /*userImg div 중앙 위치*/
+}
+
+.userModify.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 1px;
+}
+
+.userImg.input {
+  height: 20%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.userImg.input label {
+  display: inline-block;
+  color: #003768;
+  font-size: inherit;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.user-profile-remove {
+  display: inline-block;
+  color: #ff5a5f;
+  font-size: inherit;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+.user-profile-remove-click {
+  cursor: pointer;
+}
+.userImg.input input[type="file"] {
+  /* 파일 필드 숨기기 */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.user-nickname-input {
+  float: left;
+  width: 200px;
+  height: 40px;
+  margin: 3px auto;
+  padding: 0 10px;
+  display: block;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.remove-user {
+  float: right;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.remove-user-click {
+  cursor: pointer;
+}
+.remove-user span {
+  font-size: small;
+  color: #003768;
+}
+
+.apply-button {
+  margin-top: 10px;
+  float: right;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.apply-button button {
+  background-color: #ff5a5f;
+  color: white;
+  width: 100%;
+}

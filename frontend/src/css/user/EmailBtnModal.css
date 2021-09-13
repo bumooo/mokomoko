@@ -1,0 +1,55 @@
+Modal.Body {
+}
+.error-msg {
+  color: red;
+  font-size: 13px;
+  margin-left: 6px;
+}
+.mail-auth-msg {
+  font-size: 15px;
+}
+.notify {
+  font-size: 15px;
+  flex: auto;
+}
+.resend-mail {
+  text-decoration: none;
+}
+
+.okay-msg {
+  color: blue;
+  font-size: 10px;
+  float: right;
+}
+.check-btn-active {
+  background-color: #ff5a5f;
+}
+.check-btn-unactive {
+  background-color: #ff5a6073;
+}
+
+#email-check-validation {
+  width: 270px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+#email-check-validation:focus {
+  outline: none;
+}
+
+.code-input {
+  width: 270px;
+  height: 35px;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  padding: 0 10px;
+  border-radius: 3px;
+  font-size: 18px;
+}
+.code-input::placeholder {
+  font-size: 15px;
+}

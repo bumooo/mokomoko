@@ -1,0 +1,13 @@
+.userBlock-header{
+    display: inline-block;
+    width: 100%;
+}
+
+.userBlock-header.back{
+    width: 10%;
+}
+
+.userBlock-header.title{
+    width: 90%;
+    font-size: 20px;
+}

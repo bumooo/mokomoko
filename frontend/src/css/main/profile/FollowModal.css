@@ -1,0 +1,37 @@
+.background {
+    position: fixed;
+    z-index: 1;
+    /*해당 태그 요소의 위치를 상단을 기준으로 얼마나 밑에 위치시킬건지 지정.
+(양수이면 상단 기준으로 아래 쪽에, 음수이면 상단 기준으로 위쪽에 위치.)*/
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    opacity: 0.7;
+}
+
+.followList {
+    margin-left: 10%;
+    position: fixed;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    width: 80%;
+    height: 70%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px black;
+    background: white;
+    opacity: 1;
+}
+
+h1{
+    z-index: 3;
+    color: black;
+}

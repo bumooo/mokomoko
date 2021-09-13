@@ -1,0 +1,61 @@
+.password-validation-onColor {
+  color: rgb(105, 130, 211);
+  float: left;
+  margin-bottom: 12px;
+  font-size: 10px;
+}
+
+.password-validation-offColor {
+  color: red;
+  float: left;
+  margin-bottom: 12px;
+  font-size: 10px;
+}
+
+.passwordChk-validation-onColor {
+  color: rgb(105, 130, 211);
+  float: left;
+  margin-bottom: 12px;
+  font-size: 10px;
+}
+
+.passwordChk-validation-offColor {
+  color: red;
+  float: left;
+  margin-bottom: 12px;
+  font-size: 10px;
+}
+.email-validation-onColor {
+  color: rgb(105, 130, 211);
+  float: left;
+  margin-bottom: 12px;
+  font-size: 10px;
+}
+.email-validation-offColor {
+  color: red;
+  float: left;
+  margin-bottom: 12px;
+  font-size: 10px;
+}
+.update-pw-submit #update-pw-btn {
+  width: 270px;
+  height: 30px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+.update-pw-btn-onColor {
+  background-color: #ff5a5f;
+}
+.update-pw-btn-onColor:enabled:hover {
+  cursor: pointer;
+}
+.update-pw-btn-offColor {
+  background-color: #a8a7a780;
+}
+.update-pw-btn-offColor:disabled:hover {
+  cursor: default;
+}

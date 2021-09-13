@@ -1,0 +1,84 @@
+/* 탐색 페이지 최상위 태그 / 가운데정렬 */
+.header-wrapper {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/* width가 768보다 작으면 가로길이에 맞게 width 조정 */
+@media only screen and (max-width: 768px) {
+  .header-row {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .header-col {
+  }
+}
+
+/* width가 768보다 크면 가로길이를 768px로 고정 */
+@media only screen and (min-width: 768px) {
+  .header-row {
+    width: 768px;
+    margin-bottom: 50px;
+  }
+  .header-col {
+  }
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  top: 0;
+  /* height: 80px; */
+}
+#logo-img {
+  /*상위의 로고 크기와 위치 설정*/
+  display: block;
+  margin: auto;
+  width: 120px;
+  height: 95px;
+  margin-left: -10px;
+  float: left;
+}
+#profile-header-name {
+  display: block;
+  margin: auto;
+  float: left;
+  font-family: Wemakeprice-SemiBold;
+  background-color: transparent;
+}
+.VscBell {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  padding-bottom: 11px;
+  margin-bottom: -6px;
+}
+.logo {
+  background-color: transparent;
+  margin-bottom: 20px;
+
+  /* border-bottom: 1px solid #dbdbdb; */
+}
+@font-face {
+  font-family: "Wemakeprice-SemiBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Wemakeprice-SemiBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+#profile-header-nick {
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 40px;
+  font-family: Wemakeprice-SemiBold;
+  background-color: transparent;
+}
+.header-col {
+  width: 100%;
+  /* position: fixed; */
+  /* border-bottom: 1px solid #dbdbdb; */
+}

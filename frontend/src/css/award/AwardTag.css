@@ -1,0 +1,40 @@
+/* 탐색 페이지 최상위 태그 / 가운데정렬 */
+.awardTag-wrapper {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* width가 768보다 작으면 가로길이에 맞게 width 조정 */
+  @media only screen and (max-width: 768px) {
+    .awardTag-row {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    .awardTag-col {
+    }
+  }
+  
+  /* width가 768보다 크면 가로길이를 768px로 고정 */
+  @media only screen and (min-width: 768px) {
+    .awardTag-row {
+      width: 768px;
+      margin-bottom: 50px;
+    }
+    .awardTag-col {
+    }
+  }
+  
+
+.awardTag-col{
+    float: left;
+    margin-top: 20px;
+}
+
+.awardTag-col.top3{
+    width: 50%;
+}
+
+.awardTag-col.top6{
+    width: 50%;
+}

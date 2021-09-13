@@ -1,0 +1,282 @@
+/* 탐색 페이지 최상위 태그 / 가운데정렬 */
+.food-wrapper {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/* width가 768보다 작으면 가로길이에 맞게 width 조정 */
+@media only screen and (max-width: 768px) {
+  .food-row {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .food-col {
+  }
+}
+
+/* width가 768보다 크면 가로길이를 768px로 고정 */
+@media only screen and (min-width: 768px) {
+  .food-row {
+    width: 768px;
+    margin-bottom: 50px;
+  }
+  .food-col {
+  }
+}
+
+/* 음식 작성 페이지 헤더 */
+.food-header {
+  overflow: hidden;
+  height: 40px;
+  border-bottom: 2px solid grey;
+  margin-top: 5px;
+}
+/* 음식 작성 페이지 아이콘 */
+.food-header .food-icon .food-link {
+  float: left;
+  color: black;
+  margin-left: 10px;
+}
+/* 음식 작성 페이지 타이틀 */
+.food-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* 음식 작성 페이지 완료 버튼 */
+.food-finish {
+  float: right;
+  margin-right: 10px;
+  color: blue;
+}
+/* 현재 선택된 음식 사진*/
+.food-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* 현재 선택된 음식 비디오*/
+.food-video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* 현재 선택된 음식 사진 담는 그리드*/
+.food-image-border {
+  position: relative;
+  width: 100%;
+  padding-bottom: 70%;
+  overflow: hidden;
+  border-bottom: 2px solid grey;
+}
+/* 음식 여러장 담는 그리드 */
+.food-border {
+  position: relative;
+  float: left;
+  width: 25%;
+  border: 1px solid #ebebeb;
+  padding-bottom: 25%;
+  overflow: hidden;
+}
+/* 음식 여러장 사진들*/
+.food-images {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.food-filebox label {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #999;
+  font-size: inherit;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.food-filebox input[type="file"] {
+  /* 파일 필드 숨기기 */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+/* 이미지에 순서 넣기 */
+.food-item {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: grey;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px; /*세로 정렬*/
+  color: #ffffff;
+}
+.food-item-selected {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #ef5c89;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px; /*세로 정렬*/
+  color: #ffffff;
+}
+.food-selected {
+  opacity: 0.1;
+}
+
+/* foodtest */
+
+.food-top {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 20%;
+}
+.food-top-border {
+  position: relative;
+  float: left;
+  width: 25%;
+  height: 100%;
+  border: 1px solid #ebebeb;
+  padding-bottom: 25%;
+  overflow: hidden;
+}
+.food-top-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  border-bottom: 1px solid #ebebeb;
+}
+.food-desc {
+  width: 75%;
+  height: 0;
+  padding-bottom: 25%;
+  border: solid 1px #ebebeb;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+  overflow: hidden;
+}
+.food-top-info {
+  position: absolute;
+  left: 0;
+  padding-top: 85%;
+  width: 100%;
+  font-size: 12px;
+}
+
+/* 태그 관련 css */
+.food-tag-wrap {
+  border-bottom: solid 1px #ebebeb;
+  white-space: nowrap;
+  height: 40px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.food-tag-ul {
+  height: 40px;
+  display: inline;
+  white-space: nowrap;
+  float: left;
+}
+.food-tag {
+  display: inline-block;
+}
+.food-tag-btn {
+  border-radius: 10px;
+  background-color: #ef5c89;
+}
+.food-tag-btn > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.food-tag-create {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #ef5c89;
+  color: #ffffff;
+}
+
+.food-wrapper::-webkit-scrollbar {
+  /* 스크롤바 전체 영역 */
+  width: 10px;
+  height: 10px;
+}
+.food-wrapper::-webkit-scrollbar-track {
+  background-color: #f9f9f9;
+  /* 스크롤이 움직이는 영역  */
+}
+.food-wrapper::-webkit-scrollbar-thumb {
+  /*  스크롤  */
+  background-color: gold;
+  border-radius: 30px;
+  height: 1px;
+}
+.food-wrapper::-webkit-scrollbar-button:end:increment {
+  /*  스크롤의 화살표가 포함된 영역   */
+  width: 0px;
+}
+
+/* 태그 모달 창*/
+.food-create-input {
+  width: 80%;
+  height: 40px;
+  margin: 3px auto;
+  padding: 0 10px;
+  display: block;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.food-tag-create {
+  cursor: pointer;
+}
+.food-btn-disabled {
+  background-color: grey;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+/* FoodSetting */
+
+.food-setting-header {
+  width: 100%;
+  display: block;
+  float: left;
+  color: #999;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+}
+.food-setting-body {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.food-setting-title {
+  float: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.food-setting-toggle {
+  float: right;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
