@@ -3,9 +3,10 @@
 + ### 개요 : 요리사진과 레시피 사진을 공유하는 SNS
 
 + ### 사용 스택 :
-  + `Backend` : `Java`, `SpringBoot`, `Mysql`
+  + `Backend` : `Java`, `SpringBoot`, `Mysql`, `JWT`, `Spring Security`, `Swagger`, `QueryDSL`, `JavaMailSender`
   + `Frontend` : `React`, `Redux`, `Axios`
   + `Devops` : `Jenkins`, `Docker`, `AWS EC2`, `Nginx`
+  + `Collaboration` : `Mattermost`
 
 + #### `메인 페이지`
 ![image](https://user-images.githubusercontent.com/61149599/133008865-2f144a53-3c1b-48d9-a419-117804c4ee52.png)<br>
