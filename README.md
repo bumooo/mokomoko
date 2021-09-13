@@ -3,7 +3,7 @@
 + ### 개요 : 요리사진과 레시피 사진을 공유하는 SNS
 
 + ### 사용 스택 :
-  + `Backend` : `Java`, `SpringBoot`, `Mysql`, `JWT`, `Spring Security`, `Swagger`, `QueryDSL`, `JavaMailSender`
+  + `Backend` : `Java`, `SpringBoot`, `Mysql`
   + `Frontend` : `React`, `Redux`, `Axios`
   + `Devops` : `Jenkins`, `Docker`, `AWS EC2`, `Nginx`
   + `Collaboration` : `Mattermost`
