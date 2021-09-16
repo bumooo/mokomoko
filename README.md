@@ -6,7 +6,6 @@
   + `Backend` : `Java`, `SpringBoot`, `Mysql`
   + `Frontend` : `React`, `Redux`, `Axios`
   + `Devops` : `Jenkins`, `Docker`, `AWS EC2`, `Nginx`
-  + `Collaboration` : `Mattermost`
 
 + #### `메인 페이지`
 ![image](https://user-images.githubusercontent.com/61149599/133008865-2f144a53-3c1b-48d9-a419-117804c4ee52.png)<br>
